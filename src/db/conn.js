@@ -10,7 +10,7 @@ const mongoose = require('mongoose')
 const url = 'mongodb://localhost/comments'
 
 mongoose.connect(url, {
-    userNewUrlParser: true,
+    useNewUrlParser:true,
     useUnifiedTopology: true,
     useFindAndModify: true,
     useCreateIndex:true,
